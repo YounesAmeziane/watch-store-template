@@ -14,6 +14,12 @@
         nav.classList.toggle('scrolling-active', window.scrollY > 0)
 
     })
+
+    window.addEventListener('scroll', function(){
+        let nav = document.querySelector('nav');
+        nav.classList.toggle('scrolling-non-active', window.scrollY < 100)
+
+    })
 </script>
 <body>
     <nav>
@@ -21,7 +27,7 @@
         <div class="logo"><strong>whatch</strong></div>
         <ul class="links">
             <li><a href="">Home</a></li>
-            <li><a href="">products</a></li>
+            <li><a href="products.html">products</a></li>
             <li><a href="">about us</a></li>
             <li><a href="">log in</a></li>
         </ul>
@@ -33,80 +39,139 @@
     </nav>
     <div class="banner-area" id="home"></div>
     <div class="container">
-        <div class="card">
-            <div class="imgBx">
-                <img src="p1.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="productName">
-                    <h3>Zenith</h3>
+        <h1>products</h1>
+        <div class="row">
+            <div class="card">
+                <div class="first">
+                    <a href=""><img src="p1.jpg" alt=""></a>
                 </div>
-                <div class="price_rating">
-                    <h2>$13.45</h2>
-                    <div class="rating">
+                <div class="second">
+                    <h2>Zenith</h2>
+                    <p>345.45$</p>
+                    <div class="rates">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="first">
+                    <a href=""><img src="p1.jpg" alt=""></a>
+                </div>
+                <div class="second">
+                    <h2>IWC</h2>
+                    <p>786.28$</p>
+                    <div class="rates">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card">
-            <div class="imgBx">
-                <img src="p2.png" alt="">
-            </div>
-            <div class="content">
-                <div class="productName">
-                    <h3>IWC</h3>
+            <div class="card">
+                <div class="first">
+                    <a href=""><img src="p1.jpg" alt=""></a>
                 </div>
-                <div class="price_rating">
-                    <h2>$127.43</h2>
-                    <div class="rating">
+                <div class="second">
+                    <h2>Racate</h2>
+                    <p>980.00$</p>
+                    <div class="rates">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="first">
+                    <a href=""><img src="p1.jpg" alt=""></a>
+                </div>
+                <div class="second">
+                    <h2>Rolex</h2>
+                    <p>566.34$<p>
+                    <div class="rates">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="card">
-            <div class="imgBx">
-                <img src="p3.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="productName">
-                    <h3>Racate</h3>
+                                                                        <!-- SECOND ROW -->
+
+        <div class="row">
+            <div class="card">
+                <div class="first">
+                    <a href=""><img src="p1.jpg" alt=""></a>
                 </div>
-                <div class="price_rating">
-                    <h2>$398.23</h2>
-                    <div class="rating">
+                <div class="second">
+                    <h2>Zenith</h2>
+                    <p>345.45$</p>
+                    <div class="rates">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="first">
+                    <a href=""><img src="p1.jpg" alt=""></a>
+                </div>
+                <div class="second">
+                    <h2>IWC</h2>
+                    <p>786.283$</p>
+                    <div class="rates">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card">
-            <div class="imgBx">
-                <img src="p4.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="productName">
-                    <h3>Rolex</h3>
+            <div class="card">
+                <div class="first">
+                    <a href=""><img src="p1.jpg" alt=""></a>
                 </div>
-                <div class="price_rating">
-                    <h2>$790.50</h2>
-                    <div class="rating">
+                <div class="second">
+                    <h2>Racate</h2>
+                    <p>980.00$</p>
+                    <div class="rates">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="first">
+                    <a href=""><img src="p1.jpg" alt=""></a>
+                </div>
+                <div class="second">
+                    <h2>Rolex</h2>
+                    <p>566.34$<p>
+                    <div class="rates">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
@@ -117,5 +182,9 @@
             </div>
         </div>
     </div>
+    <center>
+        <h2>For more products</h2>
+        <a href="products.html"><button>more</button></a>
+    </center>
 </body>
 </html>
