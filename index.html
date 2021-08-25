@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home</title>
+</head>
+<script>
+    window.addEventListener('scroll', function(){
+        let nav = document.querySelector('nav');
+        nav.classList.toggle('scrolling-active', window.scrollY > 0)
+
+    })
+</script>
+<body>
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo"><strong>whatch</strong></div>
+        <ul class="links">
+            <li><a href="">Home</a></li>
+            <li><a href="">products</a></li>
+            <li><a href="">about us</a></li>
+            <li><a href="">log in</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+    <div class="banner-area" id="home"></div>
+    <div class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src="p1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="productName">
+                    <h3>Zenith</h3>
+                </div>
+                <div class="price_rating">
+                    <h2>$13.45</h2>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="p2.png" alt="">
+            </div>
+            <div class="content">
+                <div class="productName">
+                    <h3>IWC</h3>
+                </div>
+                <div class="price_rating">
+                    <h2>$127.43</h2>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="p3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="productName">
+                    <h3>Racate</h3>
+                </div>
+                <div class="price_rating">
+                    <h2>$398.23</h2>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="p4.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="productName">
+                    <h3>Rolex</h3>
+                </div>
+                <div class="price_rating">
+                    <h2>$790.50</h2>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
